@@ -11,6 +11,7 @@ Thumbs.db
 # Miscellanea #
 ###############
 __pycache__/
+.vscode
 """
 
 freecad = """# FreeCAD generated files #
