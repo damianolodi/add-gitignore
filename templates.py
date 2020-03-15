@@ -18,4 +18,26 @@ freecad = """# FreeCAD generated files #
 ###########################
 *.FCStd1"""
 
-programs = {"freecad": freecad, "kicad": "None"}
+kicad = """# KiCAD generated files #
+#########################
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses"""
+
+programs = {"freecad": freecad, "kicad": kicad}
