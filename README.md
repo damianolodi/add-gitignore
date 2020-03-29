@@ -31,6 +31,11 @@ on your terminal. So, for example on _Linux_ the command should return `/usr/bin
 #!/usr/bin/env python3
 ```
 
+You should also make the script file executable. To do that, `cd` into the script direcotry and type the following command
+```bash
+chmod +x add-gitignore.py
+```
+
 Finally, to be able to call the script from whichever place on your system, you should add the script directory to your `PATH`. Type the following on your terminal:
 ```bash
 cd
