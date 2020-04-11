@@ -40,4 +40,39 @@ fp-info-cache
 *.dsn
 *.ses"""
 
-programs = {"freecad": freecad, "kicad": kicad}
+c = """### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.out
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+"""
+
+programs = {"freecad": freecad, "kicad": kicad, "c": c}
